@@ -14,7 +14,6 @@ class ContentController extends Controller
         $itemColumns = [
             'itemDescription' => [
                 'name1',
-                'description'
             ],
             'variationBase' => [
                 'id',
@@ -23,10 +22,7 @@ class ContentController extends Controller
             'variationRetailPrice' => [
                 'price'
             ],
-            'variationImageList' => [
-                'path',
-                'cleanImageName'
-            ]
+            
         ];
 
         $itemFilter = [
