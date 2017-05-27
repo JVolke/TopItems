@@ -12,7 +12,9 @@ class ContentController extends Controller
     public function showTopItems(Twig $twig, ItemDataLayerRepositoryContract $itemRepository):string
     {
         $itemColumns = [
-            'free3',
+            'itemBase' =>[
+              'free3'
+            ],
             'itemDescription' => [
                 'name1'
             ],
